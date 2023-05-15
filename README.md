@@ -1,7 +1,7 @@
 # ATS
 This code is produced to support paper https://www.catalyzex.com/paper/arxiv:1810.11586
 
-![alt text](http://url/to/img.png)
+![alt text](1-Figure1-1.png)
 
 The code is written for combination of DenseNet and CIFAR100 dataset
 
