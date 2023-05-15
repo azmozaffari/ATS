@@ -4,9 +4,11 @@ However Deep neural networks recently have achieved impressive results for diffe
 
 
 ## Importance of Calibration for Medical Image Classification 
+Figure 1: Confidence output of skin anomaly detection model. Before calibration, the confidence of the model is high for both correctly and misclassified samples. After applying calibration, the network keeps the confidence of correctly classified samples high while decrease the confidence of misclassified samples.
+More details can be found in paper https://www.catalyzex.com/paper/arxiv:1810.11586
 ![alt text](1-Figure1-1.png)
 
-More details can be found in paper https://www.catalyzex.com/paper/arxiv:1810.11586
+
 
 ## Code
 This sample code is provided to support post-priocessing calibration for TS and ATS methods. The code is written for combination of DenseNet and CIFAR100 dataset.
